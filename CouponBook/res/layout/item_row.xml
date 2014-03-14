@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content">
+
+    <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:paddingLeft="3dp"
+            android:layout_weight="10">
+		<ImageView android:id="@+id/merchant_icon"
+			android:layout_width="match_parent"
+			android:layout_height="120dp" 
+			android:adjustViewBounds="true"
+			android:scaleType="centerInside" 
+			android:src="@drawable/universal_logo"
+			android:layout_margin="5dp"/>
+	</RelativeLayout>
+		
+    <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="10"
+            android:orientation="vertical"
+            android:gravity="center_vertical">
+		<TextView android:id="@+id/merchant_name"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:textSize="18sp"
+			android:text="Merchant Name"
+			android:paddingLeft="10dp"/>
+		<TextView android:id="@+id/coupon_desc"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:textSize="11sp"
+			android:text="Some info"
+			android:paddingLeft="10dp"/>
+		
+		<LinearLayout
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal"
+	            android:paddingRight="10dp"
+	            android:gravity="center_vertical|right">
+			<TextView android:id="@+id/user_name"
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:textSize="13sp"
+				android:text="User Name"/>
+			<ImageView android:id="@+id/user_icon"
+				android:layout_width="20dp"
+				android:layout_height="20dp" 
+				android:adjustViewBounds="true"
+				android:scaleType="centerInside" 
+				android:src="@drawable/universal_logo"
+				android:layout_margin="0dp"/>		
+		</LinearLayout>
+				
+		
+	</LinearLayout>
+	
+
+</LinearLayout>

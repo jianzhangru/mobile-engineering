@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Coupon Book</string>
+    <string name="mertchant_href"><![CDATA[<font color="black"><a href="%1$s">%2$s</a></font>]]></string> 
+    
+
+</resources>
